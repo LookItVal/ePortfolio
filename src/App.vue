@@ -6,7 +6,7 @@
     ></main-navbar>
 
     <page-viewer
-        :page="pages[activePage]"
+        :page=activePage
     ></page-viewer>
 </template>
 
@@ -21,22 +21,16 @@ export default {
     },
     data() {
         return {
-            activePage: 0,
+            activePage: 0 as number,
             pages: [
                 {
-                    link: {text:'Home', url: 'index.html'},
-                    pageTitle: 'Home Page',
-                    content: 'This is the home content'
+                    link: {text:'Home', url: 'index.html'} as {text:string, url:string},
                 },
                 {
-                    link: {text: 'About', url: 'about.html'},
-                    pageTitle: 'About Page',
-                    content: 'This is the about content'
+                    link: {text: 'Portfolio', url: 'portfolio.html'} as {text:string, url:string},
                 },
                 {
-                    link: {text: 'Contact', url: 'contact.html'},
-                    pageTitle: 'Contact Page',
-                    content: 'This is the contact content'
+                    link: {text: 'Resume', url: 'resume.html'} as {text:string, url:string},
                 }
             ] 
         }

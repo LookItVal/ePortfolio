@@ -1,12 +1,28 @@
 <template>
-    <div class="container">
-        <h1>{{page.pageTitle}}</h1>
-        <p>{{page.content}}</p>
-    </div>
+    <component :is="selectedPageType"/>
 </template>
 
 <script lang="ts">
-export default {
-    props: ['page']
-}
+import { defineComponent} from 'vue';
+import HomePage from './HomePage.vue'; // Import your components
+import PortfolioPage from './PortfolioPage.vue';
+import ResumePage from './ResumePage.vue';
+
+export default defineComponent({
+    props: {
+        page: {
+            type: Number,
+            required: true
+        }
+    },
+    computed: {
+        selectedPageType() {
+            const page = this.page;
+            if (page === 0) return HomePage;
+            if (page === 1) return PortfolioPage;
+            if (page === 2) return ResumePage;
+            return null;
+        }
+    }
+});
 </script>
