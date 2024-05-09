@@ -4,7 +4,12 @@
             <h1>Quinn Cecil</h1>
         </div>
         <div class="temp-portfolio">
-            <h2>im trying my best.</h2>
+            <h2>DS220: Data Visualization</h2>
+            <p style="text-align: center;">
+                <a href="https://docs.google.com/document/d/1m4MwDh9yJL-IVPex3B7T-HnbefzYr89tKcbqXxbHCI4/export?format=pdf">Here</a> is an assignment where I made some visualizations in R<br>
+                To view the final project, click <a href="https://docs.google.com/document/d/1Bs3MI1KNUVwXcU9TmRgX1TbL7xkQ_Ji1gu28vVF23KA/export?format=pdf">here</a><br>
+                <a href="https://docs.google.com/presentation/d/18tGDXWStsL_UOdG2BaK35MlYXZcq5ZiiH-69oh-eC7s/export?format=pdf">Here</a> is a presentation I made on the project
+            </p>
         </div>
         <div class="bottom-note">
             <p>

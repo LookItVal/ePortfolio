@@ -4,7 +4,10 @@
             <h1>Quinn Cecil</h1>
         </div>
         <div class="temp-portfolio">
-            <h2>im trying my best.</h2>
+            <h2>DS210: Intro to Data Science</h2>
+            <p style="text-align: center;">
+                To view the final project, click <a href="https://docs.google.com/document/d/1wv9LefGa38sqqZ3cvvaTMCDypUtLAcbx/export?format=pdf">here</a><br>
+            </p>
         </div>
         <div class="bottom-note">
             <p>
