@@ -1,0 +1,1 @@
+{"file":"index-ClR9XagM.js","mappings":";;;;;;;;;;;;;;AAKA,MAAK,YAAU;AAAA,EACf,MAAM;AACN;;AAPA,QAAA,OAAAA,eAAA,MAAA,CAAA,SAAA;;;;;;;;;","names":["_ssrRenderAttrs"],"sources":["../../../../pages/contact/index.vue"],"sourcesContent":["<template>\n    <div></div>\n</template>\n\n<script>\nexport default {\nname: \"/contact\"\n}\n</script>"],"version":3}
