@@ -1,1 +1,0 @@
-import{_ as t,q as s,s as o,w as n,o as a,a as c}from"./entry.72aa48b2.js";const _={},r=c("p",null,"this is a test",-1);function d(l,i){const e=s("dev");return a(),o(e,null,{default:n(()=>[r]),_:1})}const p=t(_,[["render",d]]);export{p as default};
